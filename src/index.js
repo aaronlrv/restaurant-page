@@ -1,5 +1,4 @@
-import firstModule from "./firstmodule" 
-
+import firstModule from "./firstmodule"
 
 
 

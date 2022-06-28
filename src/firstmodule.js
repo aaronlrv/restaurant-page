@@ -3,6 +3,9 @@ let firstModule = (() => {
     function first () {
 
         let content = document.querySelector("#content")
+        
+        let home = document.createElement("div")
+        content.append(home)
 
         let header = document.createElement("header")
         content.append(header)
