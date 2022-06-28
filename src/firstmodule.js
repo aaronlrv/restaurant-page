@@ -37,7 +37,7 @@ let firstModule = (() => {
     return {first}
 })()
 
-firstModule.first
+
 
 
 export default firstModule

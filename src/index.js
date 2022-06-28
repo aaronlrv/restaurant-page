@@ -1,6 +1,6 @@
-import firstModule from "./firstmodule"
-
-firstModule.first()
+import firstModule from "./firstmodule" 
 
 
-console.log("Hello WOrld!")
+
+
+console.log("Hello World!")
