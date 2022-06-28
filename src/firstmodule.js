@@ -5,10 +5,11 @@ let firstModule = (() => {
         let content = document.querySelector("#content")
         
         let home = document.createElement("div")
+        home.classList.add("home")
         content.append(home)
 
         let header = document.createElement("header")
-        content.append(header)
+        home.append(header)
 
         let h3 = document.createElement("h3")
         header.append(h3)
@@ -16,7 +17,7 @@ let firstModule = (() => {
         h3.textContent = "Some Restaurant Name"
 
         let main = document.createElement("main")
-        content.append(main)
+        home.append(main)
 
         let copy = document.createElement("div")
         copy.classList.add("copy")
