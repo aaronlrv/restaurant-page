@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js" defer>  </script>
+    <script src="main.js" defer> </script>
 </head>
 <body>
+    <nav>
+        <button class="home">Home</button>
+        <button class="contact">Contact</button>
+        <button class="menu">Menu</button>
+    </nav>
     <div id="content"></div>
+    <div class="contact">
+        <form action="">
+            <legend>Contact Us!</legend>
+            <fieldset>
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" name="user_name" id="name">
+                </div>
+                <div>
+                    <label for="number">Phone Number:</label>
+                    <input type="number" name="phone_number" id="number">
+                </div>
+                <div>
+                    <label for="title">Title:</label>
+                    <input type="text" name="title" id="title">
+                </div>
+                <div>
+                    <label for="Message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit form</button>
+            </fieldset>
+        </form>
+    </div>
 
 </body>
 </html>
