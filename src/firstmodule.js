@@ -28,8 +28,9 @@ let firstModule = (() => {
         main.append(divImage)
         divImage.classList.add("image")
 
-        let image = document.createElement("img").src="https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_960_720.jpg"
+        let image = document.createElement("img")
         divImage.append(image)
+        image.src= "https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_960_720.jpg"
 
 
     }
