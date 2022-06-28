@@ -5,7 +5,7 @@ let firstModule = (() => {
         let header = document.createElement("header")
         content.append(header)
 
-        let h3 = document.createElement("header")
+        let h3 = document.createElement("h3")
         header.append(h3)
         h3.classList.add("headline")
         h3.textContent = "Some Restaurant Name"
@@ -20,8 +20,15 @@ let firstModule = (() => {
         let copyPara = document.createElement("p")
         copy.append(copyPara)
         copyPara.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis consequuntur eveniet vel cumque doloribus nemo quaerat facilis fugit natus, neque ea commodi a, distinctio blanditiis nobis, cupiditate reiciendis enim?"
+        copyPara.classList.add("copy-para")
 
-        
+        let divImage = document.createElement("div")
+        main.append(divImage)
+        divImage.classList.add("image")
+
+        let image = document.createElement("img").src="https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_960_720.jpg"
+        divImage.append(image)
+
 
     }
     return first
