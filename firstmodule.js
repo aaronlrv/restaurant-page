@@ -2,6 +2,14 @@ let content = document.querySelector("#content")
 
 let firstModule = (() => {
     function first () {
+        let header = document.createElement("header")
+        content.append(header)
+
+        let h3 = document.createElement("header")
+        header.append(h3)
+        h3.classList.add("headline")
+        h3.textContent = "Some Restaurant Name"
+
         
     }
     return first
