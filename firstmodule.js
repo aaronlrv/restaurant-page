@@ -10,7 +10,19 @@ let firstModule = (() => {
         h3.classList.add("headline")
         h3.textContent = "Some Restaurant Name"
 
+        let main = document.createElement("main")
+        content.append(main)
+
+        let copy = document.createElement("div")
+        copy.classList.add("copy")
+        main.append(copy)
+
+        let copyPara = document.createElement("p")
+        copy.append(copyPara)
+        copyPara.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis consequuntur eveniet vel cumque doloribus nemo quaerat facilis fugit natus, neque ea commodi a, distinctio blanditiis nobis, cupiditate reiciendis enim?"
+
         
+
     }
     return first
 })()
