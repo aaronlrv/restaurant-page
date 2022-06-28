@@ -1,7 +1,9 @@
-let content = document.querySelector("#content")
 
 let firstModule = (() => {
     function first () {
+
+        let content = document.querySelector("#content")
+
         let header = document.createElement("header")
         content.append(header)
 
@@ -31,8 +33,13 @@ let firstModule = (() => {
 
 
     }
-    return first
+    return {first}
 })()
+
+firstModule.first
+
+
+export default firstModule
 
 /*
     <header>
